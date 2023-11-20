@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameActor">
+      <UniqueIdentifier>{f4b575b7-f35d-4b8b-b15e-ddc489428352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrame">
+      <UniqueIdentifier>{1cb4f3bf-6252-42e1-ba84-4dc6fb7724d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLibrary">
+      <UniqueIdentifier>{74d02ae8-61f2-4add-8ce7-2061b08fcaba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager">
+      <UniqueIdentifier>{fa51d015-6141-4842-91e5-ca488f530f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene">
+      <UniqueIdentifier>{97added4-be3d-4157-bbce-72d6738deeb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{f55ec32e-c5bb-484c-85e1-12e696900159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager\Collision">
+      <UniqueIdentifier>{11f93128-3f95-4e22-a81d-56d3c8da28fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager\Input">
+      <UniqueIdentifier>{2efd9010-7f9f-451a-9ada-cfa623f6941a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager\Mesh">
+      <UniqueIdentifier>{8ba8e800-97ff-4384-b22c-acbe27ae66c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager\XAudio2">
+      <UniqueIdentifier>{8df3743c-a507-43cc-bfc3-fdfd3b4aeba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLibrary\DirectX">
+      <UniqueIdentifier>{8a1e34e2-fc31-4ba9-8afa-9449edf943c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLibrary\Shader">
+      <UniqueIdentifier>{da6f8473-2d5c-4fa5-bc39-4e17a5de2e71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scripts\GameMain.cpp" />
+    <ClCompile Include="Scripts\MainApp.cpp" />
+    <ClCompile Include="Scripts\pch.cpp" />
+    <ClCompile Include="Scripts\GameFrame\Actor.cpp">
+      <Filter>GameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameFrame\AnimatedActor.cpp">
+      <Filter>GameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameFrame\ModelActor.cpp">
+      <Filter>GameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameFrame\SceneActor.cpp">
+      <Filter>GameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameFrame\SpriteActor.cpp">
+      <Filter>GameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameFrame\TextActor.cpp">
+      <Filter>GameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameScene\GameOverScene.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameScene\MainScene.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameScene\ResultScene.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameScene\TitleScene.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameManager\WavSound.cpp">
+      <Filter>GameManager\XAudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameManager\XAudio2Manager.cpp">
+      <Filter>GameManager\XAudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameManager\Animation.cpp">
+      <Filter>GameManager\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameManager\MeshImporter.cpp">
+      <Filter>GameManager\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameManager\MeshManager.cpp">
+      <Filter>GameManager\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameManager\SkeltalMesh.cpp">
+      <Filter>GameManager\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameManager\StaticMesh.cpp">
+      <Filter>GameManager\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameManager\InputManager.cpp">
+      <Filter>GameManager\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameManager\CheckCollision.cpp">
+      <Filter>GameManager\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameManager\Collision.cpp">
+      <Filter>GameManager\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameManager\CollisionCaluclater.cpp">
+      <Filter>GameManager\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameManager\CollisionManager.cpp">
+      <Filter>GameManager\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameLibrary\DirectWrite.cpp">
+      <Filter>GameLibrary\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameLibrary\AnimationShader.cpp">
+      <Filter>GameLibrary\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameLibrary\CollisionShader.cpp">
+      <Filter>GameLibrary\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameLibrary\EffectShader.cpp">
+      <Filter>GameLibrary\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameLibrary\Shader.cpp">
+      <Filter>GameLibrary\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameLibrary\ShadowShader.cpp">
+      <Filter>GameLibrary\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameLibrary\SkyBoxShader.cpp">
+      <Filter>GameLibrary\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameLibrary\SpriteShader.cpp">
+      <Filter>GameLibrary\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameLibrary\CutScene.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameLibrary\TextWriter.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameLibrary\WICTextureLoader11.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameActor\ApproximateShadow.cpp">
+      <Filter>GameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameActor\Coin.cpp">
+      <Filter>GameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameActor\CoinManager.cpp">
+      <Filter>GameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameActor\Effect.cpp">
+      <Filter>GameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameActor\EffectManager.cpp">
+      <Filter>GameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameActor\EnemySimple.cpp">
+      <Filter>GameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameActor\Fade.cpp">
+      <Filter>GameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameActor\GoalEvent.cpp">
+      <Filter>GameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameActor\Player.cpp">
+      <Filter>GameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameActor\RemainingText.cpp">
+      <Filter>GameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameActor\SkyBox.cpp">
+      <Filter>GameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameActor\TimeLimit.cpp">
+      <Filter>GameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameActor\TitleGuideBlink.cpp">
+      <Filter>GameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameActor\TitleLogo.cpp">
+      <Filter>GameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameLibrary\DirectDevice.cpp">
+      <Filter>GameLibrary\DirectX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scripts\GameMain.h" />
+    <ClInclude Include="Scripts\pch.h" />
+    <ClInclude Include="Scripts\GameFrame\Actor.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameFrame\AnimatedActor.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameFrame\ModelActor.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameFrame\Scene.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameFrame\SceneActor.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameFrame\SpriteActor.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameFrame\TextActor.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameScene\GameOverScene.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameScene\MainScene.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameScene\ResultScene.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameScene\TitleScene.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameManager\WavSound.h">
+      <Filter>GameManager\XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameManager\XAudio2Manager.h">
+      <Filter>GameManager\XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameManager\Animation.h">
+      <Filter>GameManager\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameManager\MeshImporter.h">
+      <Filter>GameManager\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameManager\MeshManager.h">
+      <Filter>GameManager\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameManager\SkeltalMesh.h">
+      <Filter>GameManager\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameManager\StaticMesh.h">
+      <Filter>GameManager\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameManager\InputManager.h">
+      <Filter>GameManager\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameManager\CheckCollision.h">
+      <Filter>GameManager\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameManager\Collision.h">
+      <Filter>GameManager\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameManager\CollisionCaluclater.h">
+      <Filter>GameManager\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameManager\CollisionManager.h">
+      <Filter>GameManager\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameLibrary\DirectWrite.h">
+      <Filter>GameLibrary\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameLibrary\AnimationShader.h">
+      <Filter>GameLibrary\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameLibrary\CollisionShader.h">
+      <Filter>GameLibrary\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameLibrary\EffectShader.h">
+      <Filter>GameLibrary\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameLibrary\Shader.h">
+      <Filter>GameLibrary\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameLibrary\ShadowShader.h">
+      <Filter>GameLibrary\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameLibrary\SkyBoxShader.h">
+      <Filter>GameLibrary\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameLibrary\SpriteShader.h">
+      <Filter>GameLibrary\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameLibrary\CutScene.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameLibrary\ReadData.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameLibrary\StepTimer.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameLibrary\TextWriter.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameLibrary\WICTextureLoader11.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameActor\ApproximateShadow.h">
+      <Filter>GameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameActor\Coin.h">
+      <Filter>GameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameActor\CoinManager.h">
+      <Filter>GameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameActor\Effect.h">
+      <Filter>GameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameActor\EffectManager.h">
+      <Filter>GameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameActor\EnemySimple.h">
+      <Filter>GameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameActor\Fade.h">
+      <Filter>GameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameActor\GoalEvent.h">
+      <Filter>GameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameActor\Player.h">
+      <Filter>GameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameActor\RemainingText.h">
+      <Filter>GameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameActor\SkyBox.h">
+      <Filter>GameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameActor\TimeLimit.h">
+      <Filter>GameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameActor\TitleGuideBlink.h">
+      <Filter>GameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameActor\TitleLogo.h">
+      <Filter>GameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scripts\GameLibrary\DirectDevice.h">
+      <Filter>GameLibrary\DirectX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Scripts\HLSL\AnimationVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Scripts\HLSL\CheckCollisionPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Scripts\HLSL\CheckCollisionVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Scripts\HLSL\EffectPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Scripts\HLSL\EffectVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Scripts\HLSL\ShadowPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Scripts\HLSL\ShadowVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Scripts\HLSL\SkyBoxPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Scripts\HLSL\SkyBoxVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Scripts\HLSL\SpritePS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Scripts\HLSL\SpriteVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Scripts\HLSL\StandardPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Scripts\HLSL\StandardVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Haunt.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ghost.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

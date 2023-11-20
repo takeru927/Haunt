@@ -1,0 +1,52 @@
+# Blender MTL File: 'None'
+# Material Count: 4
+
+newmtl Medieval_House_Base
+Ns 224.999983
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 0.200000 house01_base_normal.jpeg
+map_Kd house01_base_albedo.jpeg
+
+newmtl Medieval_House_Frames
+Ns 224.999983
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump house01_frames_normal.jpeg
+map_Kd house01_frames_albedo.jpeg
+
+newmtl Medieval_House_Misc
+Ns 224.999983
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 0.200000 house01_misc_normal.jpeg
+map_Kd house01_misc_albedo.jpeg
+map_Ks house01_misc_spec.jpeg
+map_d house01_misc_mask.jpeg
+
+newmtl Medieval_House_Roof
+Ns 224.999983
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump house01_roof_normal.jpeg
+map_Kd house01_roof_albedo.jpeg
